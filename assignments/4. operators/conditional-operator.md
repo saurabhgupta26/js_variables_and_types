@@ -9,22 +9,74 @@
     * [ ] Mul
     * [ ] Div
 
+let num1 = prompt (`Enter first no.`);
+let num2 = prompt (`Enter second no`);
+let result;
+let operator = prompt (`Enter the operation you want to put`);
+if (operator == "+") {
+result = num1 + num2;
+alert(result);
+}
+else if (operator == "-"){
+	if (num1>num2) {
+  result= num1-num2;
+  alert(result);
+} else alert (`Put valid number`);
+}
+else if (operator == "*") {
+result = num1 * num2;
+alert(result);
+}
+else if (operator == "/"){
+	if (num1>num2) {
+  result= num1/num2;
+  alert(result);
+} else alert (`Put valid number`);
+}
+
+
 2. 🎖Write a if else statement which checks if the status is single `console.log` the message `John is single` or else `John is married`
 ```js
 var firstName = 'John';
 var status = 'single';
 // Your code goes here
+if (status=='single') {
+  console.log(`${firstName} is single`);
+}
+else {
+  console.log(`${firstName} is married`);
+}
 ```
 
 3. 🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
 ```js
 // your code goes here
-```
+let num1 = prompt (`Enter first no.`);
+let num2 = prompt (`Enter second no`);
+if (num1>num2) {
+  alert (`${num1}`);
+}
+else {
+  alert (`${num2}`);
+}
 
+```
 4. 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 
 ```js
 // Your code goes here
+let num1 = prompt (`Enter first no.`);
+let num2 = prompt (`Enter second no`);
+let num3 = prompt (`Enter third no`);
+let product = num1*num2*num3;
+
+if (product>0) {
+  alert (`+`);
+}
+else {
+  alert (`-`);
+}
+
 ```
 
 ## Switch Statement
@@ -44,6 +96,7 @@ Take a number value from user and alert the message if it matches the conditions
 * [ ] PLEASE TRY AGAIN, if  is none of the above.
 ```js
 // Your code goes here
+
 ```
 
 2. 🎖Using switch statement do the following
