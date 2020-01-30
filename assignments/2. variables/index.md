@@ -2,7 +2,7 @@
 ```js
 var name = "Mark";
 ```
-#### datatype i.e., variable.
+#### name is a variable name.
 2. Find the error if any
 ```js
   var product cost = 3.45;

@@ -1,13 +1,13 @@
 1. 🎖 What's the output of the code below
 ```js
-typeof "Joe"; 			String
-typeof 4;			Number
-typeof NaN;			Number
-typeof false;			Boolean
-typeof function () {};		Object
+typeof "Joe"; 			"string"
+typeof 4;			    "number"
+typeof NaN;		        "number"
+typeof false;			"boolean"
+typeof function () {};	"object"
 var phone = 8983700;	
-typeof phone;			Number
-typeof null;			Object
+typeof phone;			"number"
+typeof null;			"object"
 ```
 
 2. 🎖 Output of the code below
@@ -16,13 +16,13 @@ typeof null;			Object
 var num = 45;	
 String(num);		"45"
 String(321);		"321"
-String(300 + 23);	"30023"
+String(300 + 23);	"323"
 String(false);		"false"
 String(true);		"true"
 Number("3.18");		3.18
 Number(" ");		0
-Number("");		0
-Number("22 44");	Nan
+Number("");		    0
+Number("22 44");	NaN
 Number(false);		0
 Number(true);		1
 ```

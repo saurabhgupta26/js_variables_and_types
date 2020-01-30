@@ -61,9 +61,10 @@ alert(tempOutside);
 4. 🎖 Output of this and the reason behind the output.
 ```js
 alert( alert(1) || 2 || alert(3) );
+Output: 1 (alert)-> 2(alert)
 
 
-
-
+First, the outer alert will be solved, hence moving inside the alert scope. As we know, alert doesn't return any value, so it will be undefined value for it. 
+Now, when the first alert(1) will work, it will show the alert and after finding the first false value, the outer alert will tend to find the truthy value because of the OR operator. hence, from the first alert, there won't be any truthy value, will move further to 2 that is a truthy value, hence returning 2 for the outer alert. So, outer alert will show 2(alert) and finish.
 
 ```

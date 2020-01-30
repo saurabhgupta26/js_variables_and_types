@@ -143,5 +143,32 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 * [ ] `FF` if `marks` is less than or equal to 30
 ```js
 // Your code goes here
-//changes
+let marks = prompt(`Enter your marks`);
+marks = Number(marks);
+switch (true) {
+  case (marks > 90):
+    alert(`Your grade is AA`);
+    break;
+  case (marks > 80 && marks <= 90):
+    alert(`Your grade is AB`);
+    break;
+  case (marks > 70 && marks <= 80):
+    alert(`Your grade is BB`);
+    break;
+  case (marks > 60 && marks <= 70):
+    alert(`Your grade is BC`);
+    break;
+  case (marks > 50 && marks <= 60):
+    alert(`Your grade is CC`);
+    break;
+  case (marks > 40 && marks <= 50):
+    alert(`Your grade is CD`);
+    break;
+  case (marks > 30 && marks <= 40):
+    alert(`Your grade is DD`);
+    break;
+  default:
+    alert(`Your grade is FF`);
+}
+
 ```
