@@ -37,6 +37,7 @@ while (amount <= bank_balance) {
 2. 🎖 Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen using `alert` (e.g. "2 is even").
 ```js
 // your code goes here
+
 for(let i = 0; i <= 20; i++){
   if(i % 2 === 0){
     console.log("even")
@@ -106,6 +107,4 @@ while(i<=20)
         console.log(i);
     i++;
 }
-
-
 ```
